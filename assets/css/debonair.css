@@ -1,0 +1,119 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#abbas
+{
+  width:60%;
+  float:left;
+}
+
+#dikko
+{
+  width:40%;
+  float:right;
+}
+
+.wpcf7 input[type="text"], .wpcf7 input[type="email"]{
+    font-size: 16px;
+    color: #000000e8;
+    background-color: #E9ECF5;
+    border: 1px solid #E9ECF5;
+    border-radius: 10px;
+    height: 40px!important;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.wpcf7 textarea{
+    font-size: 16px;
+    color: #000000e8;
+    background-color: #E9ECF5;
+    border: 1px solid #E9ECF5;
+    border-radius: 10px;
+    width: 100%;
+}
+.wpcf7 .wpcf7-submit {
+    background-color: #336699;
+    border: 1px solid #ffffff;
+    color: #FFFFFF;
+    width: 100%;
+    height: 40px!important;
+    margin-top: 10px;
+}
+.menu-button {
+    background-color:#336699;
+    border:1px;
+    border-radius:3px;
+    -webkit-box-shadow:1px 1px 0px 0px #336699;
+    -moz-box-shadow:1px 1px 0px 0px #336699;
+    box-shadow:1px 1px 0px 0px #336699;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+div.wpforms-container-full .wpforms-form input[type="submit"], div.wpforms-container-full .wpforms-form button[type="submit"], div.wpforms-container-full .wpforms-form .wpforms-page-button {
+  background-color:#336699!important;
+  border:1px!important;
+  border-radius:3px!important;
+  -webkit-box-shadow:1px 1px 0px 0px #336699!important;
+  -moz-box-shadow:1px 1px 0px 0px #336699!important;
+  box-shadow:1px 1px 0px 0px #336699!important;
+  width: 100%!important;
+  height: 55px!important;
+  text-align: center!important;
+  padding-top: 7px!important;
+  font-weight: bolder!important;
+  font-size: 20px!important;
+  color: white!important;
+}
+
+[type="button"], [type="reset"], [type="submit"] {
+  background-color:#336699!important;
+  border:1px!important;
+  border-radius:3px!important;
+  -webkit-box-shadow:1px 1px 0px 0px #336699!important;
+  -moz-box-shadow:1px 1px 0px 0px #336699!important;
+  box-shadow:1px 1px 0px 0px #336699!important;
+  width: 100%!important;
+  height: 55px!important;
+  text-align: center!important;
+  padding-top: 7px!important;
+  font-weight: bolder!important;
+  font-size: 20px!important;
+  color: white!important;
+}
+
+textarea {
+  width: 100%!important;
+  border:1px!important;
+  border-radius:3px!important;
+  -webkit-box-shadow:1px 1px 0px 0px #336699!important;
+  -moz-box-shadow:1px 1px 0px 0px #336699!important;
+  box-shadow:1px 1px 0px 0px #336699!important;
+}
+
+
+.menu-button a,  .menu-button a:hover, .menu-button a:active {
+    color:#fff !important;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Styles */
+    .menu-button {
+        display: none;
+    }
+}

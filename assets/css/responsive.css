@@ -1,0 +1,36 @@
+.hideOnMobile {
+    display: flex;
+}
+.hideOnDesktop {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .hideOnMobile {
+        display: none;
+    }
+    .hideOnDesktop {
+        display: flex;
+    }
+    /* Page Header Mockup */
+    .pageHeaderMockup {
+        position: relative!important;
+        top: 0!important;
+        left: 0!important;
+        bottom: 0!important;
+        right: 0!important;
+    }
+    /* Drawer */
+    #drawer {
+        height: 100vh!important;
+    }
+}
+
+@media (min-width: 768px) {
+    .hideOnMobile {
+        display: flex;
+    }
+    .hideOnDesktop {
+        display: none;
+    }
+}
