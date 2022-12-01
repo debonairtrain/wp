@@ -1,0 +1,59 @@
+.debbuttons-notice {
+  height: 148px;
+  color: #000;
+  display: block;
+}
+.debbuttons-notice .review-logo {
+  background: url("../../images/maxbuttonspro-128.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  float: left;
+  margin: 10px;
+  height: 128px;
+  width: 128px;
+}
+.debbuttons-notice .mb-notice {
+  display: block;
+  height: 128px;
+  float: left;
+  margin: 10px;
+}
+.debbuttons-notice .mb-notice p {
+  font-size: 16px;
+}
+.debbuttons-notice .title {
+  font-size: 24px !important;
+  margin: 4px 0;
+}
+.debbuttons-notice ul.review-notice-links li {
+  float: left;
+  display: inline-block;
+  margin-right: 20px;
+}
+.debbuttons-notice ul.review-notice-links li a {
+  font-size: 16px;
+}
+.debbuttons-notice .close-mb-notice {
+  float: right;
+  margin-top: 70px;
+}
+
+.debbuttons-reviewoffer {
+  font-size: 14px;
+  padding: 15px;
+  background: #fbfbfb;
+  display: inline-block;
+  color: #000;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  margin: 8px 0;
+  line-height: 25px;
+}
+.debbuttons-reviewoffer .dismiss {
+  cursor: pointer;
+  display: block;
+  float: right;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+/*# sourceMappingURL=review_notice.css.map */
